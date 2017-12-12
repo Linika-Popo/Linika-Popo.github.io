@@ -385,7 +385,7 @@ span i:hover, span i:active {
     .nature, .people {
         position: static;
         margin: 0 auto;
-        padding-left: 0;
+        padding-left: 10px;
     }
     .nature img, .people img {
         width: 49%;          
@@ -422,12 +422,9 @@ span i:hover, span i:active {
         margin: 5px auto;        
         width: 100%;
         position: static;
-    }
-    .albums img, .people img  {
-        padding: 0;
-    }
-    .nature img {
-        padding: 0;
+        padding-left: 0;
+    }   
+    .nature img {        
         height: 200px;
     }     
     .people img {
