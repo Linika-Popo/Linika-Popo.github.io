@@ -391,6 +391,7 @@ span i:hover, span i:active {
     }
     .about img {
         width: 50%;
+        margin-left: 1%;
     }
     .about_me {
         margin-left: 52%;
