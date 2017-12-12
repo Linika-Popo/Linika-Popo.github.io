@@ -189,13 +189,6 @@ nav li a:hover {
     padding: 2.5%;    
 }
 
-.nature img {
-    height: 280px;
-}
-
-.people img {
-    height: 490px;
-}
 .nature img:hover, .people img:hover {
     filter: opacity(20%);
     -webkit-filter: opacity(20%)
@@ -350,14 +343,7 @@ span i:hover, span i:active {
         margin: 0 auto;
         padding-left: 30px;
     }
-    .nature img {        
-        height: 350px;                   
-    }
-    .people img {
-        width: 49%;
-        height: 690px;
-    }
-
+    
     .about {
         width: 100%;
     }
@@ -392,12 +378,7 @@ span i:hover, span i:active {
         display: inline;    
         padding: 0;   
     }
-    .nature img {
-        height: 260px;
-    }
-    .people img {        
-        height: 532px;       
-    }
+   
     .about {
         width: 100%;
     }
@@ -424,12 +405,7 @@ span i:hover, span i:active {
         position: static;
         padding-left: 0;
     }   
-    .nature img {        
-        height: 200px;
-    }     
-    .people img {
-        height: 505px;
-    }
+    
     .tips h2, .about_me h2 {
         text-align: center;
         font-size: 2rem;
