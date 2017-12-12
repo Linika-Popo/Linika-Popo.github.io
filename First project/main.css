@@ -185,11 +185,17 @@ nav li a:hover {
 }
 
 .nature img, .people img {
-    width: 20%;
-    height: 210px;
+    width: 20%;    
     padding: 2.5%;    
 }
 
+.nature img {
+    height: 280px;
+}
+
+.people {
+    height: 490px;
+}
 .nature img:hover, .people img:hover {
     filter: opacity(20%);
     -webkit-filter: opacity(20%)
