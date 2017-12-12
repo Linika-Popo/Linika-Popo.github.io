@@ -331,7 +331,9 @@ span i:hover, span i:active {
         padding-left: 5px;
         display: inline-block;
     }
-
+    .categories {
+        padding: 0.25%;
+    }
     .contact {
         width: 45%;
     }
