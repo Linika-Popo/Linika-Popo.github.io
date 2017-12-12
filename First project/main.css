@@ -186,6 +186,7 @@ nav li a:hover {
 
 .nature img, .people img {
     width: 20%;
+    height: 210px;
     padding: 2.5%;    
 }
 
@@ -341,12 +342,14 @@ span i:hover, span i:active {
     .nature, .people {
         position: static;
         margin: 0 auto;
+        padding-left: 30px;
     }
     .nature img {        
         height: 350px;                   
     }
     .people img {
         width: 49%;
+        height: 690px;
     }
 
     .about {
@@ -376,15 +379,18 @@ span i:hover, span i:active {
     .nature, .people {
         position: static;
         margin: 0 auto;
+        padding-left: 0;
+    }
+    .nature img, .people img {
+        width: 49%;          
+        display: inline;    
+        padding: 0;   
     }
     .nature img {
-        width: 49%;   
         height: 260px;
-        display: inline;       
     }
-    .people img {
-        width: 49%;
-        display: inline;
+    .people img {        
+        height: 532px;       
     }
     .about {
         width: 100%;
@@ -411,9 +417,16 @@ span i:hover, span i:active {
         width: 100%;
         position: static;
     }
-    .nature img, .people img {
+    .albums img, .people img  {
         padding: 0;
+    }
+    .nature img {
+        padding: 0;
+        height: 200px;
     }     
+    .people img {
+        height: 505px;
+    }
     .tips h2, .about_me h2 {
         text-align: center;
         font-size: 2rem;
