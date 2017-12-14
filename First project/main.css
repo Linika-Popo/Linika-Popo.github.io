@@ -179,13 +179,11 @@ nav li a:hover {
 
 .nature, .people {   
     display: inline-block;
-    margin: 0 auto;
-    position: relative;
-    left: 10%;
+    margin: 0 5%;    
 }
 
 .nature img, .people img {
-    width: 20%;    
+    width: 24%;    
     padding: 2.5%;    
 }
 
