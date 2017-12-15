@@ -138,7 +138,35 @@ nav li a:hover {
 
 
 /* ------------------------------------------------------------- */
+/* HOME */
 
+.dream img{
+    margin: 70px auto ;
+}
+
+.inspiration {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin: 0 50px 50px 50px;
+}
+
+.cite {
+    font-family: 'shrikhandregular';
+    font-size: 5vw;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 6vw;
+    margin: 50px 10%;
+    color: rgba(70, 14, 70, 0.815);
+    text-shadow: 1px 1px 5px rgb(243, 204, 255),
+                 4px 4px 5px rgb(85, 10, 47);                     
+}
+
+.best_photos img {
+    width: 24%;    
+    margin: 70px 7px 100px;
+}
 
 
  /* PHOTOS page */
@@ -329,6 +357,13 @@ span i:hover, span i:active {
         padding-left: 5px;
         display: inline-block;
     }
+
+    .best_photos img  {
+        width: 49%;
+        padding: 0;   
+        margin: 0.25%;
+    }
+
     .categories {
         padding: 0.25%;
     }
@@ -376,7 +411,12 @@ span i:hover, span i:active {
         display: inline;    
         padding: 0;   
     }
-   
+    
+    .best_photos img  {
+        width: 49%;
+        padding: 0;   
+        margin: 0.25%;     
+    }
     .about {
         width: 100%;
     }
@@ -397,12 +437,16 @@ span i:hover, span i:active {
         width: 100%;
         display: block; 
     }        
-    .albums img, .nature img, .people img, .tips img, .about img, .nature, .people  {
+    .albums img, .nature img, .people img, .tips img, .about img, .best_photos img, .nature, .people  {
         margin: 5px auto;        
         width: 100%;
         position: static;
         padding-left: 0;
     }   
+
+    .best_photos img {
+        padding: 0;
+    }
     
     .tips h2, .about_me h2 {
         text-align: center;
