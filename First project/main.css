@@ -64,9 +64,7 @@ header {
 
 header img {
     width: 13vw;
-    position: relative;
-    top: 1.5vw;
-    left: 2vw;   
+    position: fixed;
 }
 
 h1 {
@@ -168,6 +166,9 @@ nav li a:hover {
     margin: 70px 7px 100px;
 }
 
+.best_photos {
+    margin: 10px auto 10%;
+}
 
  /* PHOTOS page */
 
@@ -390,6 +391,13 @@ span i:hover, span i:active {
     .tips h2, .about_me h2 {        
         font-size: 4rem;
     }
+
+    header img {
+        width: 15vw;
+        position: fixed;
+    }
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -430,6 +438,12 @@ span i:hover, span i:active {
     .tips h2, .about_me h2 {        
         font-size: 3rem;
     }
+
+    header img {
+        width: 15vw;
+        position: fixed;
+
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -458,4 +472,11 @@ span i:hover, span i:active {
     .about_me {
         margin: 0 auto;
     }
+
+    header img {
+        width: 17vw;
+        position: fixed;
+
+    }
+
 }
