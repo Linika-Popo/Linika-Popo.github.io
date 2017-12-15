@@ -396,7 +396,6 @@ span i:hover, span i:active {
         width: 15vw;
         position: fixed;
     }
-}
 
 }
 
@@ -408,7 +407,6 @@ span i:hover, span i:active {
         margin: 5px auto;
         display: block;
     }
-
     .nature, .people {
         position: static;
         margin: 0 auto;
@@ -418,8 +416,7 @@ span i:hover, span i:active {
         width: 49%;          
         display: inline;    
         padding: 0;   
-    }
-    
+    }    
     .best_photos img  {
         width: 49%;
         padding: 0;   
@@ -438,7 +435,6 @@ span i:hover, span i:active {
     .tips h2, .about_me h2 {        
         font-size: 3rem;
     }
-
     header img {
         width: 15vw;
         position: fixed;
